@@ -13,7 +13,7 @@ def dedupe(items): #计算c 5 2 后的序列的组合
 
 def shPartSort(ccs):
     assert ccs.__len__() == 64
-    dk = [2, 14, 12, 12, 12, 12]  # 划分成2,14,12,12,12,12 5份,前面2是0b tag位
+    dk = [2, 16, 12, 12, 12, 12]  # 划分成2,16,12,12,12,12 5份,前面2是0b tag位
     i = 0
     pack = []
     for dik in dk:
